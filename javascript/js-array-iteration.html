@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>Bilangan</h2>
+
+<p>Urutan bilangan Ganjil </p>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [3, 5, 7, 9, 11];
+
+let txt = "";
+numbers.forEach(myFunction);
+document.getElementById("demo").innerHTML = txt;
+
+function myFunction(value, index, array) {
+  txt += value + "<br>"; 
+}
+</script>
+
+</body>
+</html>
