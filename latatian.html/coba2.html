@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        font-family: center;
+        background-color: #f2f2f2;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: #46c0fd;
+        color: #2f1616;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: cornsilk;
+    }
+    
+    p {
+        margin-bottom: 10px;
+    }
+    </style>
+         
+         <script>
+                 function greet() {
+    var greetingParagraph = document.getElementById("greeting");
+    greetingParagraph.textContent = "Halo! Selamat datang di halaman web saya.";
+}
+
+            </script>
+
+    <div class="container">
+        <h1>Biodata Saya</h1>
+        <p><strong>Nama:</strong> Tiara Dinda</p>
+        <p><strong>Tanggal Lahir:</strong> 22 September 2005</p>
+        <p><strong>Email:</strong> tiaradinda020@gmail.com</p>
+        <p><strong>Alamat:</strong> Jl. Sunan Kalijaga No. 09A</p>
+        <button onclick="greet()">Sapa Saya</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

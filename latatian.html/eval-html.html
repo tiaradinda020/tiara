@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+
+    <style>
+        h1{
+            text-align: center; 
+            color: maroon;
+            background-color: beige;
+        }
+
+        table, th, td {
+        border: 1px solid black;
+        }
+
+        #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 2px solid #75eb89;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: yellow;
+  color: black;
+}
+    </style>
+   
+<script>
+        function myFunction() {
+            return ;
+        }
+            
+</script>
+    
+</head>
+<body>
+    <h1>Latihan Evaluasi WEB 1</h1>
+    
+        <h4>List Kendaraan:</h4>
+            <ol>
+                <li>Mobil
+                    <ul>
+                        <li>Alpart</li>
+                        <li>rubicorn</li>
+                        <li>civic</li>
+                        
+                    </ul>
+                </li>
+                <li>Motor
+                    <ul>
+                        <li>MioMirza</li>
+                        <li>Vespa </li>
+                        <li>Vario</li>
+                        
+                    </ul>
+                </li>
+            </ol>
+
+        <h4>Table Mahasiswa 1</h4>
+            <table style="width:30%">
+        <tr>
+            <th id="a">Name</th>
+            <th id="b">NPM</th>
+        </tr>
+        <tr>
+            <td>TiaraCantik</td>
+            <td>230102045</td>
+        </tr>
+        <tr>
+            <td>Noni</td>
+            <td>230102040</td>
+        </tr>
+        <tr>
+            <td>Raraa</td>
+            <td>230302032</td>
+        </tr>
+        </table>
+
+<br>
+
+        <h4>Tabel Mahasiswa 2</h4>
+        <table id="customers"style="width:30%">
+            <tr>
+            <th colspan="2">Data Mahasiswa</th>
+            </tr>
+            <tr>
+            <td>Nama</td>
+            <td>No.Hp</td>
+            </tr>
+            <tr>
+            <td>Tiara</td>
+            <td>08138167902</td>
+            </tr>
+            <tr>
+            <td>Nonay</td>
+            <td rowspan="3"><img src="https://www.ferinahospital.com/wp-content/uploads/2018/06/gedung-ferina1.jpg" width="180px" height="150px"></td>
+            </tr>
+            <tr>
+            <td>Piaa</td>
+            </tr>
+            <tr>
+            <td>Kipuww</td>
+            </tr>
+        </table>
+       
+<br>
+<button type="button" onclick="myFunction()">submit</button>
+</body>
+</html>
